@@ -1,0 +1,393 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+   font-family: 'Chakra Petch', sans-serif;;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+}
+.nav{
+  display: flex !important;
+  justify-content: space-between !important;;
+  align-items: center !important;;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.temperature-icon i {
+  font-size: 2rem;
+  margin-left: 15px;
+}
+
+/* Body Styles */
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #e16dba, #80d0c7);
+}
+
+/* Container Styles */
+.containers {
+  max-width: 450px;
+  width: 98%;
+  height: auto;
+  margin: 20px;
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: 0px 0px 40px 3px rgba(0, 0, 0, 0.4);
+  font-family: sans-serif;
+  padding: 75px 68px;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Input Styles */
+.temperature-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.temperature-input input {
+  flex: 5;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  outline: none;
+  border-radius: 8px 0 0 8px;
+  padding: 0 10px;
+}
+
+.temperature-input .unit {
+  flex: 1;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 5px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  background: #0093e9;
+  color: #fff;
+  border-radius: 0 8px 8px 0;
+}
+
+/* Button Styles */
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+/* Footer Styles */
+.footer {
+  background-color: #2e2c2c;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  width: 100%;
+}
+
+.footer .footer-content {
+  padding: 1rem 1rem 1rem 0rem;
+}
+
+.footer h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.footer-para {
+  padding: 0px;
+  font-size: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: justify;
+}
+
+.footer .social {
+  padding: 0.8rem 0;
+  text-align: center;
+  color: #646566;
+  background-color: #2e2c2c;
+}
+
+.footer .social a {
+  font-size: 25px;
+  color: inherit;
+  border: 1px solid #ccc;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 8px;
+  opacity: 0.75;
+  color: #06e6a6;
+  transition: box-shadow 0.3s ease-in-out;  /* Add a smooth transition */
+}
+
+.footer .social a:hover {
+  opacity: 0.9;
+  background-color: #474b4b;
+}
+
+/*Contact-Us*/
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+a {
+  color: white;
+}
+
+.contact-us {
+  display: block;
+  align-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+#button-contact {
+  display: block;
+  position: static;
+  width: fit-content;
+  margin-bottom: 4%;
+ 
+}
+
+.contact-btn-text {
+  vertical-align: middle;
+}
+
+.card-card-body {
+  color: white;
+}
+
+#contact-form-text {
+  margin-left: 3%;
+  text-align: left;
+  margin-right: 14%;
+}
+
+#contact-options {
+  margin-left: 3%;
+  text-align: left;
+  margin-right: 14%;
+}
+
+.name {
+  font-size: 36px;
+  font-weight: bold;
+  color: #fff;
+}
+
+
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  color: #f6ecec;
+}
+
+.copyright-heading {
+  text-align: center;
+  font-size: 20px;
+  color: #f5efef;
+}
+
+/* Tour Button Css */
+.cssbuttons-io-button {
+  background: #34a0b0;
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  margin: auto 20px;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #4d91a6;
+  overflow: hidden;
+  position: relative;
+  height: 2.8em;
+  padding-right: 3.3em !important;
+  cursor: pointer;
+}
+
+.cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #0f2ec8;
+  right: 0.3em;
+  transition: all 0.3s;
+}
+
+.cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+}
+
+.cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #7b52b9;
+}
+
+.cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+}
+
+/* Clear all button */
+.Btn {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100px;
+  height: 40px;
+  border: none;
+  padding: 0px 10px;
+  background-color: rgb(83, 223, 255);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px rgb(32, 62, 212);
+  transition-duration: 0.3s;
+}
+
+.fa-broom {
+  width: 10px;
+  position: absolute;
+  right: 0;
+  margin-right: 20px;
+  transition-duration: 0.3s;
+}
+
+.Btn:hover span {
+  color: transparent;
+}
+
+.Btn:hover .fa-broom {
+  right: 43%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  transition-duration: 0.3s;
+}
+
+.Btn:active {
+  transform: translate(3px, 3px);
+  transition-duration: 0.3s;
+  box-shadow: 2px 2px 0px rgb(140, 32, 212);
+}
+
+/* For devices with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+  .containers {
+    width: 80%;
+  }
+
+  .temperature-input input {
+    width: 80%;
+  }
+  .nav{
+    justify-content: center !important;
+  }
+}
+
+/* For devices with a maximum width of 576px */
+@media only screen and (max-width: 576px) {
+  .containers {
+    width: 90%;
+    padding: 14px;
+    margin: 10px;
+  }
+
+  .start-tour-button {
+    scale: 0.6;
+    margin-top: -13px;
+    margin-bottom: -13px;
+  }
+
+  .footer {
+    height: 30%;
+  }
+
+  .footer-para {
+    font-size: 0.9rem;
+    padding: 7px;
+  }
+
+  .footer .footer-content {
+    padding: 9px;
+    /* margin: -4px; */
+  }
+
+  .temperature-input input {
+    width: 90%;
+  }
+  .nav {
+          justify-content: center !important;
+  }
+    #button-contact {
+      width: 115;
+     height: 40px;
+  }
+    .contact-btn-text{
+      font-size: 16px;
+    }
+    #contact-form-text h1{
+      font-size: 1.5rem;
+    }
+}
+
+.social a:hover i{
+    font-size: 26px; 
+}
+
+.social a:hover{
+    box-shadow: 0 0 10px rgba(55, 191, 164, 0.7); /* Apply a shadow on hover */
+}
